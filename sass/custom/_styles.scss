@@ -1,0 +1,185 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+$white: #FFFFFF;
+
+html {
+	background: $white;
+}
+
+body {
+	font-family: "Open Sans" !important;
+	font-size: 1em;
+	max-width: 850px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+
+	> header {
+		background: $white;
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;	
+
+		h1 {
+			a, a:visited, a:hover {
+				color: #8C8C8C;
+				font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
+			}
+		}
+	}
+
+	> nav {
+		background: $white;
+		border-bottom: 1px solid #F2F2F2;
+		padding-left: 0px;
+		padding-right: 0px;
+
+		form .search {
+			border-radius: 0.2em 0.2em 0.2em 0.2em;
+			box-shadow: none;
+			border: 0px;
+			padding-top: 0.3em;
+			padding-bottom: 0.3em;
+			padding-left: 0.5em;
+			padding-right: 0.5em;
+		}
+
+		a {
+			font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+			font-size: 0.9em;
+			padding-top: 0.3em;
+			line-height: 1.5em;
+		}
+
+		li + li {
+			border-left: 0px;
+
+			a {
+				border-left: 0px;
+			}
+		}
+	}
+
+	> div {
+		background: $white;
+		border-bottom: 0px;
+
+		> div {
+			background: $white;
+			border-right-width: 0px;
+		}
+	}
+
+	> footer {
+		background: $white;
+		text-shadow: none;
+		color: #AAAAAA;
+	  	padding-left: 0;
+	  	padding-right: 0;
+		border-top: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	#content {
+		> article {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		> div {
+			> article, > section {
+				padding-left: 0px;
+				padding-right: 0px;
+			}	
+		}
+	}
+}
+
+article {
+	padding-top: 2em;
+
+	.entry-content {
+		h3 {
+			font-style: italic
+		}
+	}
+
+	ul, ol {
+		margin-left: 2em;
+	}
+
+	a, a:visited {
+		color: #1863A1;
+	}
+
+	header {
+		h1.entry-title {
+			font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
+			font-weight: 400;
+		}
+	}
+}
+
+#content {
+	div.pagination {
+		background: none repeat scroll 0 0 transparent;
+		margin: 0 10px;  
+		font-size: 0.95em;
+		padding-bottom: 1.5em;
+		margin-top: 4em;
+		position: relative;
+		text-align: center;		
+		border-top: dotted 1px #D1D1D1;
+		border-bottom: dotted 1px #D1D1D1;
+	}
+
+	.blog-index {
+		article {
+			padding-top: 4em;
+
+			header {
+				padding-left: 0;
+  				padding-right: 0;
+			}
+		}
+
+		h1 {
+			a {
+				font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
+				font-weight: 400;
+			}
+
+			a:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	.hentry {
+		h1.entry-title {
+			font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
+			font-weight: 400;
+			font-size: 2.2em;
+		}
+	}
+	
+}
+
+figure.code {
+	.highlight {
+		background: #212C3B !important;
+
+		.gutter {
+			display: none;
+		}
+	}
+}
+
+.pre-code, html .gist .gist-file .gist-syntax .highlight pre, .highlight code {
+	background: #212C3B !important;
+}
+
+aside {
+	display: none;
+}
