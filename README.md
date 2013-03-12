@@ -13,9 +13,15 @@ Install
     $ rake generate
 
 
-To Do
------
-Styling of this theme does not cover many of the html elements, so if you spot any error, feel free to send me suggestions to improve. Thanks!
+HTML Elements Changes
+---------------------
+Changes that apply to blog content(article)
+
+h3 - presented in italic
+a, a:visited - blue color as default
+ul, ol - left margin of 2em
+
+If you spot any error, feel free to send me suggestions to improve. Thanks!
 
 
 License
