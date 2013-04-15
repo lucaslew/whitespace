@@ -24,6 +24,11 @@ Changes that apply to blog content(article)
 If you spot any error, feel free to send me suggestions to improve. Thanks!
 
 
+Comment System
+--------------
+Added support for open-source [Juvia](https://github.com/phusion/juvia) comment system. It requires two extra parameters in _config.yml: `juvia_site_key` and `juvia_host`. Thanks [ianrenton](https://github.com/ianrenton).
+
+
 License
 -------
 (The MIT License)
