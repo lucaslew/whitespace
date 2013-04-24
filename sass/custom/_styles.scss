@@ -8,7 +8,7 @@ html {
 }
 
 body {
-	font-family: "Open Sans" !important;
+	font-family: $sans !important;
 	font-size: 1em;
 	max-width: 850px;
 	padding-left: 0.5em;
@@ -23,7 +23,7 @@ body {
 		h1 {
 			a, a:visited, a:hover {
 				color: #8C8C8C;
-				font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
+				font-family: $heading-font-family;
 			}
 		}
 	}
@@ -45,7 +45,7 @@ body {
 		}
 
 		a {
-			font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+			font-family: $sans;
 			font-size: 0.9em;
 			padding-top: 0.3em;
 			line-height: 1.5em;
@@ -115,7 +115,7 @@ article {
 
 	header {
 		h1.entry-title {
-			font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
+			font-family: $heading-font-family;
 			font-weight: 400;
 		}
 	}
@@ -146,7 +146,7 @@ article {
 
 		h1 {
 			a {
-				font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
+				font-family: $heading-font-family;
 				font-weight: 400;
 			}
 
@@ -158,7 +158,7 @@ article {
 
 	.hentry {
 		h1.entry-title {
-			font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
+			font-family: $heading-font-family;
 			font-weight: 400;
 			font-size: 2.2em;
 		}
