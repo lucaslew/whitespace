@@ -15,8 +15,7 @@ Install
 
 Update
 ------
-    $ cd octopress
-    $ cd .themes/whitespace
+    $ cd octopress/.themes/whitespace
     $ git pull
     $ rake install['whitespace']
     $ rake generate
