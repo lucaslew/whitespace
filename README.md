@@ -13,6 +13,15 @@ Install
     $ rake generate
 
 
+Update
+------
+    $ cd octopress
+    $ cd .themes/whitespace
+    $ git pull
+    $ rake install['whitespace']
+    $ rake generate
+    
+    
 HTML Elements Changes
 ---------------------
 Changes that apply to blog content(article)
