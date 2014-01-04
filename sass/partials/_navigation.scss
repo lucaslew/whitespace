@@ -1,12 +1,13 @@
 body > nav {
   position: relative;
   background-color: $nav-bg;
-  @include background($nav-bg-front, $nav-bg-back);
   border: {
     top: 1px solid $nav-border-top;
     bottom: 1px solid $nav-border-bottom; }
   padding-top: .35em;
   padding-bottom: .35em;
+  padding-left: 5px;
+  padding-right: 5px;
   form {
     @include background-clip(padding-box);
     margin: 0; padding: 0;
@@ -21,7 +22,14 @@ body > nav {
       @include box-shadow(lighten($nav-bg, 2) 0 1px);
       background-color: lighten($nav-bg, 15);
       border: 1px solid $nav-border;
-      color: #888;
+      background-color: $nav-border;
+      border-radius: 0.2em 0.2em 0.2em 0.2em;
+      box-shadow: none;
+      border: 0px;
+      padding-top: 0.3em;
+      padding-bottom: 0.3em;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
       &:focus {
         color: #444;
         border-color: #80b1df;
