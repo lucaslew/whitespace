@@ -10,47 +10,24 @@ html {
 body {
 	font-family: $sans !important;
 	font-size: 1em;
-	max-width: 850px;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
 
 	> header {
 		background: $white;
 		text-align: center;
-		padding-left: 0px;
-		padding-right: 0px;	
 
 		h1 {
 			a, a:visited, a:hover {
-				color: #8C8C8C;
 				font-family: $heading-font-family;
 			}
 		}
 	}
-
 	> nav {
-		background: $white;
-		border-bottom: 1px solid #F2F2F2;
-		padding-left: 0px;
-		padding-right: 0px;
-
-		form .search {
-			border-radius: 0.2em 0.2em 0.2em 0.2em;
-			box-shadow: none;
-			border: 0px;
-			padding-top: 0.3em;
-			padding-bottom: 0.3em;
-			padding-left: 0.5em;
-			padding-right: 0.5em;
-		}
-
 		a {
 			font-family: $sans;
 			font-size: 0.9em;
 			padding-top: 0.3em;
 			line-height: 1.5em;
 		}
-
 		li + li {
 			border-left: 0px;
 
@@ -77,23 +54,9 @@ body {
 	  	padding-left: 0;
 	  	padding-right: 0;
 		border-top: 0px;
-		padding-left: 0px;
-		padding-right: 0px;
 	}
 
-	#content {
-		> article {
-			padding-left: 0px;
-			padding-right: 0px;
-		}
 
-		> div {
-			> article, > section {
-				padding-left: 0px;
-				padding-right: 0px;
-			}	
-		}
-	}
 }
 
 article {
@@ -109,8 +72,8 @@ article {
 		margin-left: 2em;
 	}
 
-	a, a:visited {
-		color: #1863A1;
+	a, a:visited, a:active, a:hover, {
+		text-decoration:none;
 	}
 
 	header {
@@ -164,20 +127,6 @@ article {
 		}
 	}
 	
-}
-
-figure.code {
-	.highlight {
-		background: #212C3B !important;
-
-		.gutter {
-			display: none;
-		}
-	}
-}
-
-.pre-code, html .gist .gist-file .gist-syntax .highlight pre, .highlight code {
-	background: #212C3B !important;
 }
 
 aside {
