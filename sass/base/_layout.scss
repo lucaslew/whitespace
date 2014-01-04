@@ -1,4 +1,4 @@
-$max-width: 1200px !default;
+$max-width: 850px !default;
 
 // Padding used for layout margins
 $pad-min: 18px !default;
@@ -50,19 +50,19 @@ body {
   margin: 0 auto;
   > header, > nav, > footer, #content > article, #content > div > article, #content > div > section {
     @extend .group;
-    padding-left: $pad-min;
-    padding-right: $pad-min;
+    margin-left: $pad-min;
+    margin-right: $pad-min;
     @media only screen and (min-width: 480px) {
-      padding-left: $pad-narrow;
-      padding-right: $pad-narrow;
+      margin-left: $pad-narrow;
+      margin-right: $pad-narrow;
     }
     @media only screen and (min-width: 768px) {
-      padding-left: $pad-medium;
-      padding-right: $pad-medium;
+      margin-left: $pad-medium;
+      margin-right: $pad-medium;
     }
     @media only screen and (min-width: 992px) {
-      padding-left: $pad-wide;
-      padding-right: $pad-wide;
+      margin-left: $pad-wide;
+      margin-right: $pad-wide;
     }
   }
   div.pagination {
