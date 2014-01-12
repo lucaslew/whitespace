@@ -17,7 +17,8 @@ body {
 
 		h1 {
 			a, a:visited, a:hover {
-				font-family: $heading-font-family;
+			font-family: $heading-font-family;
+			color: $nav-color;
 			}
 		}
 	}
@@ -73,7 +74,7 @@ article {
 	}
 
 	a, a:visited, a:active, a:hover, {
-		text-decoration:none;
+		color: #1863A1;
 	}
 
 	header {
