@@ -22,15 +22,15 @@ $text-color-light: #aaa !default;
 $type-border: #ddd !default;
 
 /* Navigation */
-$nav-bg: #ccc !default;
+$nav-bg: #fff !default;
 $nav-bg-front: image-url('noise.png') !default;
 $nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
-$nav-color: darken($nav-bg, 38) !default;
-$nav-color-hover: darken($nav-color, 25) !default;
+$nav-color: darken($nav-bg, 55) !default;
+$nav-color-hover: darken($nav-color, 35) !default;
 $nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
 $nav-border: darken($nav-bg, 10) !default;
-$nav-border-top: lighten($nav-bg, 15) !default;
-$nav-border-bottom: darken($nav-bg, 25) !default;
+$nav-border-top: darken($nav-bg, 5) !default;
+$nav-border-bottom: darken($nav-bg, 5) !default;
 $nav-border-left: darken($nav-bg, 11) !default;
 $nav-border-right: lighten($nav-bg, 7) !default;
 

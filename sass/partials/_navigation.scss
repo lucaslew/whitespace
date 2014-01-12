@@ -1,12 +1,13 @@
 body > nav {
   position: relative;
   background-color: $nav-bg;
-  @include background($nav-bg-front, $nav-bg-back);
   border: {
     top: 1px solid $nav-border-top;
     bottom: 1px solid $nav-border-bottom; }
   padding-top: .35em;
   padding-bottom: .35em;
+  padding-left: 5px;
+  padding-right: 5px;
   form {
     @include background-clip(padding-box);
     margin: 0; padding: 0;
@@ -19,9 +20,15 @@ body > nav {
       @include border-radius(.5em);
       @include background-clip(padding-box);
       @include box-shadow(lighten($nav-bg, 2) 0 1px);
-      background-color: lighten($nav-bg, 15);
       border: 1px solid $nav-border;
-      color: #888;
+      background-color: $nav-border-top;
+      border-radius: 0.2em 0.2em 0.2em 0.2em;
+      box-shadow: none;
+      border: 0px;
+      padding-top: 0.3em;
+      padding-bottom: 0.3em;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
       &:focus {
         color: #444;
         border-color: #80b1df;
@@ -55,7 +62,7 @@ body > nav {
     a {
       @include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);
       font-family: $sans;
-      text-shadow: lighten($nav-bg, 12) 0 1px;
+      text-shadow: darken($nav-bg, 3) 0 1px;
       float: left;
       text-decoration: none;
       font-size: 1.1em;
@@ -113,7 +120,7 @@ body > nav {
   &:after {
     content: "";
     position: absolute; top: -1px; left: 0;
-    background-color: lighten($nav-color, 25);
+    background-color: lighten($nav-color, 15);
   }
   &:hover:after { background-color: lighten($nav-color, 20); }
 }
