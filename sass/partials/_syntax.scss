@@ -69,7 +69,7 @@ html .gist .gist-file {
       &:hover { color: $base1 !important; }
     }
     a[href*='#file'] {
-      position: absolute; top: 0; left:0; right:-10px;
+      position: absolute; top: 0; left:0; right:0;
       color: #474747 !important;
       @extend .code-title;
       &:hover { color: $link-color !important; }
