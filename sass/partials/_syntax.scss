@@ -1,10 +1,10 @@
 .highlight, html .gist .gist-file .gist-syntax .gist-highlight {
-  table td.code { width: 100%; }
+  table td.code, td.line-data { width: 100%; }
   border: 1px solid $pre-border !important;
 }
 .highlight .line-numbers, html .gist .gist-file .gist-syntax .highlight .line_numbers {
   text-align: right;
-  font-size: 13px;
+  font-size: 13px !important;
   line-height: 1.45em;
   @if $solarized == light {
     background: lighten($base03, 1) $noise-bg !important;
@@ -69,7 +69,7 @@ html .gist .gist-file {
       &:hover { color: $base1 !important; }
     }
     a[href*='#file'] {
-      position: absolute; top: 0; left:0; right:-10px;
+      position: absolute; top: 0; left:0; right:0;
       color: #474747 !important;
       @extend .code-title;
       &:hover { color: $link-color !important; }
