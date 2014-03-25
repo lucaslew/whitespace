@@ -21,16 +21,6 @@ Update
     $ rake generate
 
 
-HTML Elements Changes
----------------------
-Changes that apply to blog content(article)
-
-	h3 - presented in italic
-	ul, ol - left margin of 2em
-
-If you spot any error, feel free to send me suggestions to improve. Thanks!
-
-
 Comment System
 --------------
 Added support for open-source [Juvia](https://github.com/phusion/juvia) comment system. It requires two extra parameters in _config.yml: `juvia_site_key` and `juvia_host`.
