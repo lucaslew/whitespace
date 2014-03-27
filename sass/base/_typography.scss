@@ -46,6 +46,7 @@ h1 {
   @extend .heading;
   text-rendering: optimizelegibility;
   margin-bottom: 1em;
+  font-weight: bold;
 }
 h2, section h1 {
   font-size: 1.5em;

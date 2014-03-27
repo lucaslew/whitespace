@@ -74,7 +74,7 @@
 				<element name="bufferIcon" src="bufferIcon.png" />
 			</elements>
 		</component>
-		
+
 		<component name="dock">
 			<settings>
 				<setting name="fontcolor" value="0xFFFFFF" />
