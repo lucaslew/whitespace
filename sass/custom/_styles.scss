@@ -14,6 +14,12 @@ body {
 	> header {
 		background: $white;
 		text-align: center;
+
+		h1 {
+			a, a:visited, a:hover {
+				font-family: $heading-font-family;
+			}
+		}
 	}
 	> nav {
 		a {
@@ -41,19 +47,27 @@ body {
 		}
 	}
 
+	> footer {
+		background: $white;
+		text-shadow: none;
+		color: #AAAAAA;
+	  	padding-left: 0;
+	  	padding-right: 0;
+		border-top: 0px;
+	}
+
+
 }
 
 article {
 	padding-top: 2em;
 
-	.entry-content {
-		h3 {
-			font-style: italic
-		}
-	}
-
 	ul, ol {
 		margin-left: 2em;
+	}
+
+	a, a:visited, a:active, a:hover, {
+		text-decoration:none;
 	}
 
 	header {
