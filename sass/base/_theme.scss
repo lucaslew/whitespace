@@ -14,8 +14,8 @@ $article-border: #eeeeee !default;
 
 $header-bg: #333 !default;
 $header-border: lighten($header-bg, 15) !default;
-$title-color: #f2f2f2 !default;
-$subtitle-color: darken($title-color, 23) !default;
+$title-color: #777777 !default;
+$subtitle-color: lighten($title-color, 25) !default;
 
 $text-color: #222 !default;
 $text-color-light: lighten($text-color, 60) !default;
