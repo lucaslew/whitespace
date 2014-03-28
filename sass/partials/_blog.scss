@@ -1,6 +1,8 @@
 article {
   padding-top: 1em;
-  a { @extend .force-wrap; }
+  a { @extend .force-wrap;
+    text-decoration: none;
+   }
   header {
     position: relative;
     padding-top: 2em;
@@ -10,7 +12,7 @@ article {
     h1 {
       margin: 0;
       a { text-decoration: none;
-        &:hover { text-decoration: underline; } }
+        }
     }
     p {
       font-size: .9em;
