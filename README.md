@@ -1,6 +1,6 @@
 Whitespace
 ==========
-Whitespace is a minimal and responsive theme for [Octopress](http://octopress.org). This theme let your contents take the center stage of your blog.
+Whitespace is a minimal and responsive theme for [Octopress](http://octopress.org). This theme lets your contents take the center stage of your blog.
 
 
 Demos
