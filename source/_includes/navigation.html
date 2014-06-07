@@ -4,6 +4,14 @@
     <li><a href="{{ site.subscribe_email }}" rel="subscribe-email" title="subscribe via email">Email</a></li>
   {% endif %}
 </ul>
+  {% if site.googleplus_user %}
+  {% unless site.googleplus_hidden %}
+<ul class="subscription">
+  <li><a href="https://plus.google.com/{{ site.googleplus_user }}" rel="author" title="Google+ Profile">
+      <img src="images/gprofile_button_desaturated-22.png" width="22" height="22" alt="Google+"></a></li>
+</ul>
+  {% endunless %}
+  {% endif %}
   {% if site.simple_search %}
 <form action="{{ site.simple_search }}" method="get">
   <fieldset role="search">
