@@ -110,8 +110,21 @@ body > nav {
     text-indent: 1.3em;
   }
 }
-@mixin mask-subscription-nav($feed: 'rss.png'){
+@mixin gplus-button($feed: 'gprofile_button_desaturated-22.png'){
   position: relative; top: 0px;
+  text-indent: -999999em;
+  border: 0;
+  padding: 0;
+  &,&:after { @include mask-image($feed); }
+  &:after {
+    content: "";
+    position: absolute; top: 0; left: 0;
+    background-color: lighten($nav-color, 15);
+  }
+  &:hover:after { background-color: lighten($nav-color, 20); }
+}
+@mixin mask-subscription-nav($feed: 'rss.png'){
+  position: relative; top: 1px;
   text-indent: -999999em;
   background-color: $nav-border-right;
   border: 0;
@@ -139,6 +152,7 @@ body > nav {
   }
   ul.subscription { position: relative; top: .2em; li, a { border: 0; padding: 0; }}
   a[rel=subscribe-rss]{ @include mask-subscription-nav('rss.png'); }
+  a[rel=website-gplus]{ @include gplus-button('gprofile_button_desaturated-22.png'); }
   a[rel=subscribe-email]{ @include mask-subscription-nav('email.png'); }
 }
 
