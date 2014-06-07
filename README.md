@@ -10,7 +10,7 @@ Unmodified: [Lucas Lew's blog](http://lucaslew.com).
 
 Slightly customized: [Chymeric Tutorials](http://tutorials.chymera.eu)
 
-*If you are using Königspress and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the issue tracking system!*
+*If you are using whitespace and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the issue tracking system!*
 
 
 Install
