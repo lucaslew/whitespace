@@ -1,26 +1,12 @@
 // This File is imported last, and will override other styles in the cascade
-// Add styles here to make changes without digging in too much
-
-$white: #FFFFFF;
-
-html {
-	background: $white;
-}
+// Add styles here to customize your blog
+// By default this file should be empty - please help us move stuff in its proper place:
+// https://github.com/lucaslew/whitespace/pull/17
 
 body {
 	font-family: $sans !important;
 	font-size: 1em;
 
-	> header {
-		background: $white;
-		text-align: center;
-
-		h1 {
-			a, a:visited, a:hover {
-				font-family: $heading-font-family;
-			}
-		}
-	}
 	> nav {
 		a {
 			font-family: $sans;
@@ -30,59 +16,47 @@ body {
 		}
 		li + li {
 			border-left: 0px;
-
-			a {
-				border-left: 0px;
-			}
 		}
 	}
 
 	> div {
-		background: $white;
 		border-bottom: 0px;
 
 		> div {
-			background: $white;
 			border-right-width: 0px;
 		}
 	}
 
-	> footer {
-		background: $white;
-		text-shadow: none;
-		color: #AAAAAA;
-	  	padding-left: 0;
-	  	padding-right: 0;
-		border-top: 0px;
-	}
-
-
 }
 
 article {
-	padding-top: 2em;
+	padding-top: 2.3em;
+
+	.entry-content {
+		h3 {
+			font-style: italic
+		}
+	}
 
 	ul, ol {
 		margin-left: 2em;
 	}
 
-	header {
-		h1.entry-title {
-			font-family: $heading-font-family;
-			font-weight: 400;
-		}
+	a, a:visited, a:active, a:hover, {
+		text-decoration: none;
 	}
+
 }
 
 #content {
 	div.pagination {
 		background: none repeat scroll 0 0 transparent;
-		margin: 0 10px;
+		margin: 0 10px;  
 		font-size: 0.95em;
 		padding-bottom: 1.5em;
 		margin-top: 4em;
 		position: relative;
-		text-align: center;
+		text-align: center;		
 		border-top: dotted 1px #D1D1D1;
 		border-bottom: dotted 1px #D1D1D1;
 	}
@@ -116,7 +90,7 @@ article {
 			font-size: 2.2em;
 		}
 	}
-
+	
 }
 
 aside {
