@@ -31,13 +31,6 @@ body {
 
 article {
 	padding-top: 2.3em;
-
-	.entry-content {
-		h3 {
-			font-style: italic
-		}
-	}
-
 	ul, ol {
 		margin-left: 2em;
 	}
@@ -91,8 +84,4 @@ article {
 		}
 	}
 	
-}
-
-aside {
-	display: none;
 }
