@@ -1,4 +1,3 @@
-$noise-bg: image-url('noise.png') top left !default;
 $img-border: inline-image('dotted-border.png');
 
 // Main Link Colors
@@ -23,7 +22,6 @@ $type-border: #ddd !default;
 
 /* Navigation */
 $nav-bg: #fff !default;
-$nav-bg-front: image-url('noise.png') !default;
 $nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
 $nav-color: darken($nav-bg, 55) !default;
 $nav-color-hover: darken($nav-color, 35) !default;
@@ -47,7 +45,6 @@ $sidebar-link-color-subdued-hover: $sidebar-link-color-hover !default;
 
 $footer-color: #888 !default;
 $footer-bg: #ccc !default;
-$footer-bg-front: image-url('noise.png') !default;
 $footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11)) !default;
 $footer-color: darken($footer-bg, 38) !default;
 $footer-color-hover: darken($footer-color, 10) !default;
