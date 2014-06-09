@@ -4,84 +4,82 @@
 // https://github.com/lucaslew/whitespace/pull/17
 
 body {
-	font-family: $sans !important;
-	font-size: 1em;
+  font-family: $sans !important;
+  font-size: 1em;
 
-	> nav {
-		a {
-			font-family: $sans;
-			font-size: 0.9em;
-			padding-top: 0.3em;
-			line-height: 1.5em;
-		}
-		li + li {
-			border-left: 0px;
-		}
-	}
+  > nav {
+    a {
+      font-family: $sans;
+      font-size: 0.9em;
+      padding-top: 0.3em;
+      line-height: 1.5em;
+    }
+    li + li {
+      border-left: 0px;
+    }
+  }
 
-	> div {
-		border-bottom: 0px;
+  > div {
+    border-bottom: 0px;
 
-		> div {
-			border-right-width: 0px;
-		}
-	}
-
+    > div {
+      border-right-width: 0px;
+    }
+  }
 }
 
 article {
-	padding-top: 2.3em;
-	ul, ol {
-		margin-left: 2em;
-	}
+  padding-top: 2.3em;
 
-	a, a:visited, a:active, a:hover, {
-		text-decoration: none;
-	}
+  ul, ol {
+    margin-left: 2em;
+  }
 
+  a, a:visited, a:active, a:hover, {
+    text-decoration: none;
+  }
 }
 
 #content {
-	div.pagination {
-		background: none repeat scroll 0 0 transparent;
-		margin: 0 10px;  
-		font-size: 0.95em;
-		padding-bottom: 1.5em;
-		margin-top: 4em;
-		position: relative;
-		text-align: center;		
-		border-top: dotted 1px #D1D1D1;
-		border-bottom: dotted 1px #D1D1D1;
-	}
+  div.pagination {
+    background: none repeat scroll 0 0 transparent;
+    margin: 0 10px;
+    font-size: 0.95em;
+    padding-bottom: 1.5em;
+    margin-top: 4em;
+    position: relative;
+    text-align: center;
+    border-top: dotted 1px #D1D1D1;
+    border-bottom: dotted 1px #D1D1D1;
+  }
 
-	.blog-index {
-		article {
-			padding-top: 4em;
+  .blog-index {
+    article {
+      padding-top: 4em;
 
-			header {
-				padding-left: 0;
-  				padding-right: 0;
-			}
-		}
+      header {
+        padding-left: 0;
+          padding-right: 0;
+      }
+    }
 
-		h1 {
-			a {
-				font-family: $heading-font-family;
-				font-weight: 400;
-			}
+    h1 {
+      a {
+        font-family: $heading-font-family;
+        font-weight: 400;
+      }
 
-			a:hover {
-				text-decoration: none;
-			}
-		}
-	}
+      a:hover {
+        text-decoration: none;
+      }
+    }
+  }
 
-	.hentry {
-		h1.entry-title {
-			font-family: $heading-font-family;
-			font-weight: 400;
-			font-size: 2.2em;
-		}
-	}
-	
+  .hentry {
+    h1.entry-title {
+      font-family: $heading-font-family;
+      font-weight: 400;
+      font-size: 2.2em;
+    }
+  }
 }
