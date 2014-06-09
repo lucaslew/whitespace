@@ -31,7 +31,8 @@ Update
     
 Update and Keep Customizations
 ------------------------------
-*For this to work, you have to track your website theme customizations on a remote (we call it ```mywebsiterepo```)*  
+*For this to work, you have to track your website theme customizations on a remote (we call it ```mywebsiterepo```)*
+
     $ cd octopress/.themes/whitespace
     $ git pull
     $ rake install['whitespace']
