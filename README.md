@@ -39,7 +39,7 @@ Update and Keep Customizations
     $ cd ../..
     $ git fetch --all
     $ git reset --hard mywebsiterepo/master
-
+    $ rake generate
 
 Comment System
 --------------
