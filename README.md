@@ -27,8 +27,8 @@ Update
     $ git pull
     $ rake install['whitespace']
     $ rake generate
-    
-    
+
+
 Update and Keep Customizations
 ------------------------------
 *For this to work, you have to track your website theme customizations on a remote (we call it ```mywebsiterepo```).*
