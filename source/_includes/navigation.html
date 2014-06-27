@@ -16,6 +16,11 @@
   <li><a href="https://pinboard.in/u:{{ site.pinboard_user }}" rel="subscribe-pinboard" title="Pinboard Bookmarks">Pinboard</a></li>
 </ul>
   {% endif %}
+  {% if site.delicious_user %}
+<ul class="subscription">
+  <li><a href="http://delicious.com/{{ site.delicious_user }}" rel="subscribe-delicious" title="Delicious Bookmarks">Delicious</a></li>
+</ul>
+  {% endif %}
   {% if site.simple_search %}
 <form action="{{ site.simple_search }}" method="get">
   <fieldset role="search">
