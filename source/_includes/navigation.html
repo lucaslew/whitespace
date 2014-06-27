@@ -11,6 +11,23 @@
 </ul>
   {% endunless %}
   {% endif %}
+  {% if site.pinboard_user %}
+<ul class="subscription">
+  <li><a href="https://pinboard.in/u:{{ site.pinboard_user }}" rel="subscribe-pinboard" title="Pinboard Bookmarks">Pinboard</a></li>
+</ul>
+  {% endif %}
+  {% if site.delicious_user %}
+<ul class="subscription">
+  <li><a href="http://delicious.com/{{ site.delicious_user }}" rel="subscribe-delicious" title="Delicious Bookmarks">Delicious</a></li>
+</ul>
+  {% endif %}
+  {% if site.github_user %}
+  {% if site.github_show_profile_link %}
+<ul class="subscription">
+  <li><a href="https://github.com/{{ site.github_user }}" rel="subscribe-github" title="@{{ site.github_user }} on GitHub">GitHub</a></li>
+</ul>
+  {% endif %}
+  {% endif %}
   {% if site.simple_search %}
 <form action="{{ site.simple_search }}" method="get">
   <fieldset role="search">
