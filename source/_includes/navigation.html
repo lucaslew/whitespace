@@ -11,6 +11,11 @@
 </ul>
   {% endunless %}
   {% endif %}
+  {% if site.pinboard_user %}
+<ul class="subscription">
+  <li><a href="https://pinboard.in/u:{{ site.pinboard_user }}" rel="subscribe-pinboard" title="Pinboard Bookmarks">Pinboard</a></li>
+</ul>
+  {% endif %}
   {% if site.simple_search %}
 <form action="{{ site.simple_search }}" method="get">
   <fieldset role="search">
