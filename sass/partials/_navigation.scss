@@ -151,6 +151,7 @@ body > nav {
     }
   }
   ul.subscription { position: relative; top: .2em; li, a { border: 0; padding: 0; }}
+  a[rel=subscribe-bitbucket]{ @include whitespace-subscription-button('bitbucket_22_gray.png'); }
   a[rel=subscribe-github]{ @include whitespace-subscription-button('github_22_gray.png'); }
   a[rel=subscribe-delicious]{ @include whitespace-subscription-button('delicious_22_gray.png'); }
   a[rel=subscribe-pinboard]{ @include whitespace-subscription-button('pinboard_22_gray.png'); }
