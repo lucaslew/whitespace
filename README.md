@@ -58,6 +58,19 @@ You can add several icons to the navigation bar. Just set some parameters in `_c
 - `bitbucket_user` for Bitbucket profile.
 
 
+External URL
+------------
+You can write a [Linklog](http://en.wikipedia.org/wiki/Linklog) by using this theme. To publish a linked post, just add `external-url` variable in the YAML front matter of your post.
+
+    ---
+    layout: post
+    ...
+    external-url: http://example.com/some/external/url
+    ---
+
+Then the title will have '&rarr;' at the end. Also the title link will point to the external url.
+
+
 License
 -------
 (The MIT License)
