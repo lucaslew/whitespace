@@ -8,7 +8,7 @@ Demos
 
 Unmodified: [Lucas Lew's blog](http://lucaslew.com).
 
-Slightly customized: [Chymeric Tutorials](http://chymeric.eu)
+Slightly customized: [Chymeric Tutorials](http://chymeric.eu), [Yous' Blog](http://yous.be/)
 
 *If you are using whitespace and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the issue tracking system!*
 
