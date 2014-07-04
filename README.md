@@ -41,9 +41,21 @@ Update and Keep Customizations
     $ git reset --hard mywebsiterepo/master
     $ rake generate
 
+
 Comment System
 --------------
-Added support for open-source [Juvia](https://github.com/phusion/juvia) comment system. It requires two extra parameters in _config.yml: `juvia_site_key` and `juvia_host`.
+Added support for open-source [Juvia](https://github.com/phusion/juvia) comment system. It requires two extra parameters in `_config.yml`: `juvia_site_key` and `juvia_host`.
+
+
+Navigation Bar
+--------------
+You can add several icons to the navigation bar. Just set some parameters in `_config.yml`:
+
+- `googleplus_user` with `googleplus_hidden: false` for Google+ profile.
+- `pinboard_user` for Pinboard bookmarks.
+- `delicious_user` for Delicious bookmarks.
+- `github_user` with `github_show_profile_link: true` for GitHub profile.
+- `bitbucket_user` for Bitbucket profile.
 
 
 License

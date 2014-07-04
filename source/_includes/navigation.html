@@ -28,6 +28,11 @@
 </ul>
   {% endif %}
   {% endif %}
+  {% if site.bitbucket_user %}
+<ul class="subscription">
+  <li><a href="https://bitbucket.org/{{ site.bitbucket_user }}" rel="subscribe-bitbucket" title="@{{ site.bitbucket_user }} on Bitbucket">Bitbucket</a></li>
+</ul>
+  {% endif %}
   {% if site.simple_search %}
 <form action="{{ site.simple_search }}" method="get">
   <fieldset role="search">
