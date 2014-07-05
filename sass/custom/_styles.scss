@@ -80,10 +80,6 @@ article {
       font-family: $heading-font-family;
       font-weight: 400;
       font-size: 2.2em;
-
-      a {
-        @include link-colors($text-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $text-color, $active: $link-color-active);
-      }
     }
   }
 }

@@ -12,6 +12,7 @@ article {
     h1 {
       margin: 0;
       a { text-decoration: none;
+        @include link-colors($text-color, $hover: inherit, $focus: inherit, $visited: $text-color, $active: inherit);
         }
     }
     p {
