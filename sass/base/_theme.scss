@@ -73,10 +73,10 @@ html {
 body {
   > div {
     background: $page-bg;
-    border-bottom: 1px solid $page-border-bottom;
+    border-bottom: 0;
     > div {
       background: $page-bg;
-      border-right: 1px solid $sidebar-border;
+      border-right: 0;
     }
   }
 }
