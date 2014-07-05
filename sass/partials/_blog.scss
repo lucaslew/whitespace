@@ -1,8 +1,8 @@
 article {
   padding-top: 1em;
   a { @extend .force-wrap;
-    text-decoration: none;
-   }
+    &, &:visited, &:active, &:hover { text-decoration: none; }
+  }
   header {
     position: relative;
     padding-top: 2em;
