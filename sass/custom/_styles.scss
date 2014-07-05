@@ -62,19 +62,13 @@ article {
 
     h1 {
       a {
-        font-family: $heading-font-family;
         font-weight: 400;
-      }
-
-      a:hover {
-        text-decoration: none;
       }
     }
   }
 
   .hentry {
     h1.entry-title {
-      font-family: $heading-font-family;
       font-weight: 400;
       font-size: 2.2em;
     }
