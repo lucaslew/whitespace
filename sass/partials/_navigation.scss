@@ -65,12 +65,12 @@ body > nav {
       text-shadow: darken($nav-bg, 3) 0 1px;
       float: left;
       text-decoration: none;
-      font-size: 1.1em;
-      padding: .1em 0;
+      font-size: .9em;
+      padding: .3em 0 .1em;
       line-height: 1.5em;
     }
     li + li {
-      border-left: 1px solid $nav-border-left;
+      border-left: 0;
       margin-left: .8em;
       a {
         padding-left: .8em;

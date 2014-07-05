@@ -4,18 +4,6 @@
 // https://github.com/lucaslew/whitespace/pull/17
 
 body {
-  > nav {
-    a {
-      font-family: $sans;
-      font-size: 0.9em;
-      padding-top: 0.3em;
-      line-height: 1.5em;
-    }
-    li + li {
-      border-left: 0px;
-    }
-  }
-
   > div {
     border-bottom: 0px;
 
