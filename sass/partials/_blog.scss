@@ -7,6 +7,8 @@ article {
     position: relative;
     padding-top: 2em;
     padding-bottom: 1em;
+    padding-left: 0;
+    padding-right: 0;
     margin-bottom: 1em;
     background: $img-border bottom left repeat-x;
     h1 {
@@ -91,7 +93,7 @@ article + article {
 }
 #content .blog-index {
   padding: { top: 0; bottom: 0; }
-  article { padding-top: 2em; }
+  article { padding-top: 4em; }
   article header { background: none; padding-bottom: 0; }
   article h1 {
     font-size: 2.2em;
