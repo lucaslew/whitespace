@@ -15,7 +15,7 @@ article {
       margin: 0;
       font-weight: 400;
       a { text-decoration: none;
-        @include link-colors($text-color, $hover: inherit, $focus: inherit, $visited: $text-color, $active: inherit);
+        @include link-colors($text-color, $visited: $text-color);
         }
     }
     p {
