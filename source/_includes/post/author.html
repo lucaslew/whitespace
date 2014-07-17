@@ -5,4 +5,12 @@
 {% else %}
   {% assign author = site.author %}
 {% endif %}
-{% if author %}<span class="byline author vcard">Authored by <span class="fn">{{ author }}</span></span>{% endif %}
+{% if author %}
+	<span class="byline author vcard">Authored by <span class="fn">
+	{% if site.googleplus_user == "" or site.googleplus_user == nil %}
+		{{ author }}
+	{% else %}
+		<a href="https://plus.google.com/{{ site.googleplus_user }}" rel="author">{{ author }}</a>
+	{% endif %}
+	</span></span>
+{% endif %}
