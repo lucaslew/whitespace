@@ -70,6 +70,25 @@ You can write a [Linklog](http://en.wikipedia.org/wiki/Linklog) by using this th
 
 Then the title will have '&rarr;' at the end. Also the title link will point to the external url.
 
+Google+ authored by link
+------------------------
+By default posts will contain a link with `rel="author"` to the Google+ profile if the `googleplus_user` variable is set in `_config.yml`.
+
+You can override the pofile for the authored by link for a specific post by adding `googleplus_user` for the post:  
+
+    ---
+    layout: post
+    ...
+    gooleplus_user: [put overriding profile id here]
+    ---
+	
+You can also choose to ignore the link by specifying `ignore` for `googleplus_user` for the post. The authored by text will then be displayed without a link.
+
+    ---
+    layout: post
+    ...
+    gooleplus_user: ignore
+    ---
 
 License
 -------
