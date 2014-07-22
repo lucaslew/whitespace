@@ -14,7 +14,7 @@
   {% endif %}
 {% if author %}
   <span class="byline author vcard">Authored by <span class="fn">
-  {% if !googleplus_user or googleplus_user == "ignore" %}
+  {% if googleplus_user == "" or googleplus_user == nil or googleplus_user == "ignore" %}
     {{ author }}
   {% else %}
     <a href="https://plus.google.com/{{ googleplus_user }}" rel="author">{{ author }}</a>
