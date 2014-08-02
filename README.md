@@ -17,7 +17,7 @@ Install
 -------
     $ cd octopress
     $ git clone git://github.com/lucaslew/whitespace.git .themes/whitespace
-    $ rake install['whitespace']
+    $ rake install['whitespace'] # for zsh, use: rake install\['whitespace'\] 
     $ rake generate
 
 
