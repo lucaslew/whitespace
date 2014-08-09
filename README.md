@@ -61,7 +61,7 @@ You can add several icons to the navigation bar. Just set the corresponding user
 
 External URL
 ------------
-You can also use our theme to set up a [Linklog](http://en.wikipedia.org/wiki/Linklog)! To publish a link post, just add `external-url` variable in the YAML section (the header) of your post.
+You can also use our theme to set up a [Linklog](http://en.wikipedia.org/wiki/Linklog)! To publish a link post, just add the `external-url` variable to the YAML section (the header) of your post - and specify a valid URL.
 
     ---
     layout: post
