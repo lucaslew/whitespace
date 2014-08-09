@@ -61,7 +61,7 @@ You can add several icons to the navigation bar. Just set the corresponding user
 
 External URL
 ------------
-You can write a [Linklog](http://en.wikipedia.org/wiki/Linklog) by using this theme. To publish a linked post, just add `external-url` variable in the YAML section (the header) of your post.
+You can also use our theme to set up a [Linklog](http://en.wikipedia.org/wiki/Linklog)! To publish a link post, just add `external-url` variable in the YAML section (the header) of your post.
 
     ---
     layout: post
@@ -69,7 +69,7 @@ You can write a [Linklog](http://en.wikipedia.org/wiki/Linklog) by using this th
     external-url: http://example.com/some/external/url
     ---
 
-The title will be rendered with an '&rarr;' character at the end; and the title link will point to the external url.
+The title will be rendered with an arrow (&rarr;) character at the end; and the title link will point to the external url.
 
 Google+ "authored by" link
 ------------------------
