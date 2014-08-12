@@ -6,12 +6,12 @@
   {% assign author = site.author %}
 {% endif %}
 {% if post.googleplus_user %}
-    {% assign googleplus_user = post.googleplus_user | downcase %}
-  {% elsif page.googleplus_user %}
-    {% assign googleplus_user = page.googleplus_user | downcase %}
-  {% else %}
-    {% assign googleplus_user = site.googleplus_user | downcase %}
-  {% endif %}
+  {% assign googleplus_user = post.googleplus_user | downcase %}
+{% elsif page.googleplus_user %}
+  {% assign googleplus_user = page.googleplus_user | downcase %}
+{% else %}
+  {% assign googleplus_user = site.googleplus_user | downcase %}
+{% endif %}
 {% if author %}
   <span class="byline author vcard">Authored by <span class="fn">
   {% if googleplus_user == "" or googleplus_user == nil or googleplus_user == "ignore" %}
