@@ -88,7 +88,7 @@ You can also choose to ignore the link by assigning `ignore` to the `googleplus_
     ---
     layout: post
     ...
-    gooleplus_user: ignore
+    googleplus_user: ignore
     ---
 
 License
