@@ -69,6 +69,7 @@ a {
 
 html {
   background: $page-bg;
+  overflow-y: scroll;
 }
 body {
   > div {
