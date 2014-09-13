@@ -145,8 +145,6 @@ body.sidebar-footer {
     .collapse-sidebar & { margin-right: 20px; }
     > div, > article {
       text-align:justify;
-      padding-top: $pad-medium/2;
-      padding-bottom: $pad-medium/2;
       float: left;
     }
   }
@@ -170,12 +168,6 @@ body.sidebar-footer {
 @media only screen and (min-width: 992px) {
   body > header { font-size: $header-font-size * 1.3; }
   #content { margin-right: $sidebar-width-wide; }
-  #content {
-    > div, > article {
-      padding-top: $pad-wide/2;
-      padding-bottom: $pad-wide/2;
-    }
-  }
   aside.sidebar {
     width: $sidebar-width-wide - $sidebar-pad-wide*2;
     padding: 1.2em $sidebar-pad-wide $sidebar-pad-wide;
