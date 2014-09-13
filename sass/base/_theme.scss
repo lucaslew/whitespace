@@ -16,6 +16,8 @@ $header-border: lighten($header-bg, 15) !default;
 $title-color: #777777 !default;
 $subtitle-color: lighten($title-color, 25) !default;
 
+// Main Text Colors
+$subheader-color: lighten($title-color, 5) !default;
 $text-color: #222 !default;
 $text-color-light: lighten($text-color, 60) !default;
 $type-border: #ddd !default;
@@ -69,6 +71,7 @@ a {
 
 html {
   background: $page-bg;
+  overflow-y: scroll;
 }
 body {
   > div {
