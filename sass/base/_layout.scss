@@ -147,6 +147,7 @@ body.sidebar-footer {
       text-align:justify;
       float: left;
     }
+    article { padding-top: 3.3em; }
   }
   aside.sidebar {
     width: $sidebar-width-medium - $sidebar-pad-medium*2;
@@ -167,7 +168,10 @@ body.sidebar-footer {
 
 @media only screen and (min-width: 992px) {
   body > header { font-size: $header-font-size * 1.3; }
-  #content { margin-right: $sidebar-width-wide; }
+  #content {
+    margin-right: $sidebar-width-wide;
+    article { padding-top: 4em; }
+  }
   aside.sidebar {
     width: $sidebar-width-wide - $sidebar-pad-wide*2;
     padding: 1.2em $sidebar-pad-wide $sidebar-pad-wide;
