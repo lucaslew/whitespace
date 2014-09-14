@@ -243,8 +243,7 @@ figure.code {
   margin-bottom: 0;
   @include border-top-radius(5px);
   font-family: $sans;
-  background: #aaaaaa image-url("code_bg.png") top repeat-x;
-  border: 1px solid #565656;
+  background: #cccccc image-url("code_bg.png") top repeat-x;
   border-top-color: #cbcbcb;
   border-left-color: #a5a5a5;
   border-right-color: #a5a5a5;
