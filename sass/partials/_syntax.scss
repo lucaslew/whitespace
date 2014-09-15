@@ -98,8 +98,8 @@ h3.filename {
 p, li {
   code {
     @extend .mono;
-    display: inline-block;
-    white-space: no-wrap;
+    display: inline;
+    word-wrap: break-word;
     background: #fff;
     font-size: .8em;
     line-height: 1.5em;
