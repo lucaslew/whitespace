@@ -27,9 +27,6 @@ figure.code, .gist-file, pre {
   .highlight pre { @include box-shadow(none); }
 }
 
-.gist .highlight, figure.code .highlight {
-  @include selection(adjust-color($base03, $lightness: 23%, $saturation: -65%), $text-shadow: $base03 0 1px);
-}
 html .gist .gist-file {
   margin-bottom: 1.8em;
   position: relative;
