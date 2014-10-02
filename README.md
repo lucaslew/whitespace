@@ -16,31 +16,37 @@ Actual blogs: [Lucas Lew's blog](http://lucaslew.com), [Chymeric Tutorials](http
 
 Install
 -------
-    $ cd octopress
-    $ git clone git://github.com/lucaslew/whitespace.git .themes/whitespace
-    $ rake install['whitespace'] # for zsh, use: rake install\['whitespace'\] 
-    $ rake generate
+``` sh
+$ cd octopress
+$ git clone git://github.com/lucaslew/whitespace.git .themes/whitespace
+$ rake install['whitespace'] # for zsh, use: rake install\['whitespace'\]
+$ rake generate
+```
 
 
 Update
 ------
-    $ cd octopress/.themes/whitespace
-    $ git pull
-    $ rake install['whitespace']
-    $ rake generate
+``` sh
+$ cd octopress/.themes/whitespace
+$ git pull
+$ rake install['whitespace']
+$ rake generate
+```
 
 
 Update and Keep Customizations
 ------------------------------
 *For this to work, you have to track your website theme customizations on a remote (we call it ```mywebsiterepo```).*
 
-    $ cd octopress/.themes/whitespace
-    $ git pull
-    $ rake install['whitespace']
-    $ cd ../..
-    $ git fetch --all
-    $ git reset --hard mywebsiterepo/master
-    $ rake generate
+``` sh
+$ cd octopress/.themes/whitespace
+$ git pull
+$ rake install['whitespace']
+$ cd ../..
+$ git fetch --all
+$ git reset --hard mywebsiterepo/master
+$ rake generate
+```
 
 
 Comment System
@@ -63,11 +69,13 @@ External URL
 ------------
 You can also use our theme to set up a [Linklog](http://en.wikipedia.org/wiki/Linklog)! To publish a link post, just add the `external-url` variable to the YAML section (the header) of your post - and specify a valid URL.
 
-    ---
-    layout: post
-    ...
-    external-url: http://example.com/some/external/url
-    ---
+``` yaml
+---
+layout: post
+...
+external-url: http://example.com/some/external/url
+---
+```
 
 The title will be rendered with an arrow (&rarr;) character at the end; and the title link will point to the external url.
 
@@ -77,19 +85,24 @@ If the `googleplus_user` variable is set under `_config.yml`, by default, posts 
 
 You can override the pofile for the authored by link for a specific post by adding `googleplus_user` for the post:  
 
-    ---
-    layout: post
-    ...
-    gooleplus_user: [put overriding profile id here]
-    ---
+``` yaml
+---
+layout: post
+...
+gooleplus_user: [put overriding profile id here]
+---
+```
+
 	
 You can also choose to ignore the link by assigning `ignore` to the `googleplus_user` post variable (in your post header). The "authored by" text will then be displayed without a link.
 
-    ---
-    layout: post
-    ...
-    googleplus_user: ignore
-    ---
+``` yaml
+---
+layout: post
+...
+googleplus_user: ignore
+---
+```
 
 License
 -------
