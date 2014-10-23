@@ -94,6 +94,24 @@ googleplus_user: ignore
 ---
 ```
 
+## AdSense for Sarch
+
+You can enable Google AdSense(TM) for search via your whitespace search bar.
+For this to work you have to set `simple_search` and `adsense_cse_partner_ID` in your `_config.yml` file (you will have to add a line for the second variable, as it is not used with any other themes).
+The value for this variable can be extracted from the custom code for your search bar from a line such as the following:
+
+```
+<input type="hidden" name="cx"`value="<adsense_cse_partner_ID>"
+```
+
+Example for `_config.yml`:
+
+```
+simple_search: https://www.google.com/search
+adsense_cse_partner_ID: partner-pub-9999999999999999:9999999999
+```
+ 
+
 ## License
 
 (The MIT License)
