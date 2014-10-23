@@ -34,19 +34,18 @@
 </ul>
   {% endif %}
   {% if site.simple_search %}
-      {% unless site.adsense_cse_partner_ID %}
-        <form action="{{ site.simple_search }}" method="get">
-          <fieldset role="search">
-            <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
-      {% endunless %}
-      {% if site.adsense_cse_partner_ID %}
-        <form action="http://www.google.com" id="cse-search-box" target="_blank">
-          <fieldset role="search">
-            <input type="hidden" name="cx" value="{{ site.adsense_cse_partner_ID }}" />
-            <input type="hidden" name="ie" value="UTF-8" />
-      {% endif %}
-            <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-          </fieldset>
-        </form>
+    {% if site.adsense_cse_partner_ID %}
+      <form action="http://www.google.com" id="cse-search-box" target="_blank">
+        <fieldset role="search">
+          <input type="hidden" name="cx" value="{{ site.adsense_cse_partner_ID }}" />
+          <input type="hidden" name="ie" value="UTF-8" />
+    {% else %}
+      <form action="{{ site.simple_search }}" method="get">
+        <fieldset role="search">
+          <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
+    {% endif %}
+          <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+        </fieldset>
+      </form>
   {% endif %}
 {% include custom/navigation.html %}
