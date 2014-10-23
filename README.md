@@ -96,7 +96,7 @@ googleplus_user: ignore
 
 ## AdSense for Search
 
-You can enable Google AdSense(TM) for search via your whitespace search bar.
+You can enable Google AdSense™ for search via your whitespace search bar.
 For this to work you have to set `simple_search` and `adsense_cse_partner_ID` in your `_config.yml` file (you will have to add a line for the second variable, as it is not used with any other themes).
 The value for this variable can be extracted from the custom code for your search bar from a line such as the following:
 
