@@ -111,7 +111,6 @@ body > nav {
 }
 .no-placeholder {
   body > nav .search {
-    background: lighten($nav-bg, 15) image-url('search.png') .3em .25em no-repeat;
     text-indent: 1.3em;
   }
 }
@@ -166,6 +165,8 @@ body > nav {
   a[rel=subscribe-email]{ @include mask-subscription-nav('email.png'); }
 }
 
-  svg .social { fill: lighten($nav-color, 15); }
-  svg:hover .social { fill: lighten($nav-color, 25); }
+  svg .social { fill: darken($nav-border-top, 20); 
+      transition:.3s;
+      }
+  svg:hover .social { fill: darken($nav-border-top, 7); }
 
