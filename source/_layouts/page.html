@@ -7,7 +7,12 @@ layout: default
   {% if page.title %}
   <header>
     <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-    {% if page.date %}<p class="meta">{% include post/date.html %}{{ time }}</p>{% endif %}
+    {% if page.date %}
+        <p class="meta">
+            {% include post/date.html %}{{ time }} | 
+            <a href="{{ site.edit }}/{{ page.path }}">Edit</a>
+        </p>
+    {% endif %}
   </header>
   {% endif %}
   {{ content }}
@@ -15,7 +20,8 @@ layout: default
     <footer>
       {% if page.date or page.author %}<p class="meta">
         {% if page.author %}{% include post/author.html %}{% endif %}
-        {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
+        {% include post/date.html %}{% if updated %}{{ updated }} (last update){% else %}{{ time }}{% endif %}
+        {% if site.versions %}{% include post/versions.html %}{% endif %}
         {% if page.categories %}{% include post/categories.html %}{% endif %}
       </p>{% endif %}
       {% unless page.sharing == false %}
