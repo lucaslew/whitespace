@@ -21,7 +21,7 @@ layout: default
       {% if page.date or page.author %}<p class="meta">
         {% if page.author %}{% include post/author.html %}{% endif %}
         {% include post/date.html %}{% if updated %}{{ updated }} (last update){% else %}{{ time }}{% endif %}
-        {% if site.versions %}{% include post/versions.html %}{% endif %}
+        {% if site.history %}{% include post/history.html %}{% endif %}
         {% if page.categories %}{% include post/categories.html %}{% endif %}
       </p>{% endif %}
       {% unless page.sharing == false %}

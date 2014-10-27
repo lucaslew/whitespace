@@ -10,7 +10,7 @@ single: true
     <p class="meta">
       {% include post/author.html %}
       {% include post/date.html %}{% if updated %}{{ updated }} (last update){% else %}{{ time }}{% endif %}
-      {% if site.versions %}{% include post/versions.html %}{% endif %}
+      {% if site.history %}{% include post/history.html %}{% endif %}
       {% include post/categories.html %}
     </p>
     {% unless page.sharing == false %}
