@@ -16,7 +16,9 @@
          | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
         {% endif %}
         {% if site.edit %}
-         | <a href="{{ site.edit }}/{{ page.path }}">Edit</a>
+          {% unless index %}
+           | <a href="{{ site.edit }}/{{ page.path }}">Edit</a>
+          {% endunless %}
         {% endif %}
       </p>
     {% endunless %}
