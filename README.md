@@ -22,8 +22,7 @@ $ rake generate
 ## Update
 
 ``` sh
-$ cd octopress/.themes/whitespace
-$ git pull
+$ git -C .themes/whitespace pull origin master
 $ rake install['whitespace']
 $ rake generate
 ```
@@ -33,8 +32,7 @@ $ rake generate
 *For this to work, you have to track your website theme customizations on a remote (we call it ```mywebsiterepo```).*
 
 ``` sh
-$ cd octopress/.themes/whitespace
-$ git pull
+$ git -C .themes/whitespace pull origin master
 $ rake install['whitespace']
 $ cd ../..
 $ git fetch --all
