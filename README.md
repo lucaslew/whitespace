@@ -52,6 +52,7 @@ You can add several icons to the navigation bar. Just set the corresponding user
 - `pinboard_user` for Pinboard bookmarks.
 - `delicious_user` for Delicious bookmarks.
 - `github_user` with `github_show_profile_link: true` for GitHub profile.
+- `twitter_user` for Twitter profile.
 - `bitbucket_user` for Bitbucket profile.
 
 ## External URL
