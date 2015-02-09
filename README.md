@@ -54,6 +54,8 @@ You can add several icons to the navigation bar. Just set the corresponding user
 - `github_user` with `github_show_profile_link: true` for GitHub profile.
 - `twitter_user` for Twitter profile.
 - `bitbucket_user` for Bitbucket profile.
+- `stackoverflow_user_id` for Stackoverflow profile. (If you look at your profile link its structure is: `http://stackoverflow.com/users/your-user-id/your-login`)
+- `linkedin_user` for LinkedIn profile. (To use this icon you'll need to create a custom public profile URL. [Here is a help topic specifying how to do this.](https://help.linkedin.com/app/answers/detail/a_id/87/~/customizing-your-public-profile-url))
 
 ## External URL
 

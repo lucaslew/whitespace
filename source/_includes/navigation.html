@@ -42,6 +42,69 @@
   C56.486,393.349,24.648,368.884,0.001,334.932L0.001,334.932z"/></svg></a></li>
 </ul>
   {% endif %}
+  {% if site.linkedin_user %}
+<ul class="subscribe">
+  <li><a href="https://linkedin.com/in/{{ site.linkedin_user }}" rel="subscribe-linkedin" title="{{ site.author }} on LinkedIn" target="_blank"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 731 1000"><path class="social" d="M158.75 865l-156.25 0l0 -521.25l156.25 0l0 521.25zm393.75 -505q87.5 0 133.125 56.25t45.625 153.75l0 295l-156.25 0l0 -278.75q0 -108.75 -76.25 -108.75 -61.25 0 -80 61.25l0 326.25l-156.25 0q2.5 -468.75 0 -521.25l123.75 0l10 103.75l2.5 0q53.75 -87.5 153.75 -87.5zm-552.5 -146.25q0 -78.75 81.25 -78.75 80 0 80 78.75 0 77.5 -80 77.5 -81.25 0 -81.25 -77.5z"/></svg></a></li>
+</ul>
+  {% endif %}
+  {% if site.stackoverflow_user_id %}
+<ul class="subscribe">
+  <li><a href="http://stackoverflow.com/users/{{ site.stackoverflow_user_id }}" rel="subscribe-stackoverflow" title="{{ site.author }} on StackOverflow" target="_blank"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 64 64"><g
+     id="layer1" class="social">
+    <path
+       d="m 9.3049611,36.847632 4.4013079,0.04316 -0.153442,19.598393 29.291259,0 0,-19.527506 4.637782,0 0,24.287331 -38.2006795,0 0.023777,-24.401371 z"
+       id="path2830"
+       style="fill-opacity:1;stroke:none"/>
+    <rect
+       width="22.944817"
+       height="4.881876"
+       x="16.481951"
+       y="48.434078"
+       id="rect3604"
+       style="fill-opacity:1;stroke:none" />
+    <rect
+       width="23.066864"
+       height="5.0039229"
+       x="20.749949"
+       y="37.830307"
+       transform="matrix(0.9953749,0.09606666,-0.09606666,0.9953749,0,0)"
+       id="rect3606"
+       style="fill-opacity:1;stroke:none" />
+    <rect
+       width="23.066864"
+       height="5.0039229"
+       x="26.472515"
+       y="23.401554"
+       transform="matrix(0.96240291,0.27162592,-0.27162592,0.96240291,0,0)"
+       id="rect3606-1"
+       style="fill-opacity:1;stroke:none" />
+    <rect
+       width="23.066864"
+       height="5.0039229"
+       x="30.528769"
+       y="3.1535864"
+       transform="matrix(0.85597805,0.51701216,-0.51701216,0.85597805,0,0)"
+       id="rect3606-1-3"
+       style="fill-opacity:1;stroke:none" />
+    <rect
+       width="23.066864"
+       height="5.0039229"
+       x="27.191883"
+       y="-24.475019"
+       transform="matrix(0.58242689,0.81288309,-0.81288309,0.58242689,0,0)"
+       id="rect3606-1-3-7"
+       style="fill-opacity:1;stroke:none" />
+    <rect
+       width="23.066864"
+       height="5.0039229"
+       x="11.174569"
+       y="-50.183693"
+       transform="matrix(0.16480989,0.98632535,-0.98632535,0.16480989,0,0)"
+       id="rect3606-1-3-7-6"
+       style="fill-opacity:1;stroke:none" />
+  </g></svg></a></li>
+</ul>
+  {% endif %}
   {% if site.bitbucket_user %}
 <ul class="subscription">
   <li><a href="https://bitbucket.org/{{ site.bitbucket_user }}" rel="subscribe-bitbucket" title="@{{ site.bitbucket_user }} on Bitbucket">Bitbucket</a></li>
