@@ -165,8 +165,11 @@ body > nav {
   a[rel=subscribe-email]{ @include mask-subscription-nav('email.png'); }
 }
 
-  svg .social { fill: darken($nav-border-top, 20); 
-      transition:.3s;
-      }
-  svg:hover .social { fill: darken($nav-border-top, 7); }
+svg path.social, svg g.social path, svg g.social rect {
+  fill: darken($nav-border-top, 20);
+  transition:.3s;
+}
 
+svg:hover path.social, svg:hover g.social path, svg:hover g.social rect {
+  fill: darken($nav-border-top, 7);
+}
