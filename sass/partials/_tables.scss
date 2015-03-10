@@ -1,0 +1,21 @@
+:not(.highlight) > table {
+  margin: 0 auto 1.5em auto;
+
+  tr {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+
+    th, td {
+      padding: 6px 13px;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      font-weight: bold;
+    }
+  }
+
+  tr:nth-child(2n) {
+    background-color: #f8f8f8;
+  }
+}
