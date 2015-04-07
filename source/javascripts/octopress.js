@@ -1,10 +1,10 @@
 function getNav() {
-  var mainNav = $('ul.main-navigation, ul[role=main-navigation]').before('<fieldset class="mobile-nav">')
+  var mainNav = $('ul.main-navigation, ul[role=main-navigation]').before('<fieldset class="mobile-nav">');
   var mobileNav = $('fieldset.mobile-nav').append('<select>');
   mobileNav.find('select').append('<option value="">Navigate&hellip;</option>');
   var addOption = function(i, option) {
     mobileNav.find('select').append('<option value="' + this.href + '">&raquo; ' + $(this).text() + '</option>');
-  }
+  };
   mainNav.find('a').each(addOption);
   $('ul.subscription a').each(addOption);
   mobileNav.find('select').bind('change', function(event) {
@@ -90,10 +90,10 @@ function flashVideoFallback(){
 function wrapFlashVideos() {
   $('object').each(function(i, object) {
     if( $(object).find('param[name=movie]').length ){
-      $(object).wrap('<div class="flash-video">')
+      $(object).wrap('<div class="flash-video">');
     }
   });
-  $('iframe[src*=vimeo],iframe[src*=youtube]').wrap('<div class="flash-video">')
+  $('iframe[src*=vimeo],iframe[src*=youtube]').wrap('<div class="flash-video">');
 }
 
 $('document').ready(function() {
