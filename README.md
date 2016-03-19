@@ -6,7 +6,7 @@ Whitespace is a minimal and responsive theme for [Octopress](http://octopress.or
 
 Default theme: [Themespace Preview](http://themespace.github.io/whitespace/)
 
-Actual blogs: [Lucas Lew's blog](http://lucaslew.com), [Chymeric Tutorials](http://chymeric.eu), [Raúl Fuente Vanilla's Blog](http://rfvallina.com/).
+Actual blogs: [Raúl Fuente Vanilla's Blog](http://rfvallina.com/), [Michell Stuttgart's Blog](http://mstuttgart.github.io)
 
 *If you are using whitespace and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the issue tracking system!*
 
