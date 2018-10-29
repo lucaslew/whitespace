@@ -114,7 +114,7 @@ adsense_cse_partner_ID: partner-pub-9999999999999999:9999999999
 
 ## Edit and History Links
 
-If you choose to track your content via an an open repository (on  GitHub, Bitbucket, etc.) you can also link to your article's history (in the footer) or allow users to contribute via the version controlling backend (link in the header, next to "COMMENTS").
+If you choose to track your content via an open repository (on  GitHub, Bitbucket, etc.) you can also link to your article's history (in the footer) or allow users to contribute via the version controlling backend (link in the header, next to "COMMENTS").
 Whitespace automatically enables this if you set the following variables in your `_config.yml` - e.g.:
 
 ```
